@@ -83,13 +83,15 @@ Search quality was measured against the training dataset, twenty questions phras
 | With the index widened beyond `/admin/config` | 16 of 20 |
 | With page keywords and purposes as well | **20 of 20** |
 
+Resolved here means the right page appears somewhere in the results. Ranking is the harder measure: of the twenty, twelve return the right page first and seventeen have it in the top five. Closing that gap is the clearest thing left to improve.
+
 There is no tagged release yet.
 
 ---
 
 ## 4. What's Left to Do (Future Scope)
 
-*   **Merging the Remaining Work:** A number of merge requests are still in review. Landing those is the first priority, since everything else depends on the module being in one piece.
+*   **Ranking:** All twenty fixture questions find the right page, but only twelve rank it first. Improving how results are ordered would make the most difference to how the assistant feels to use.
 *   **User Testing:** This is the part I would most want to do next. I would want to see how people with different levels of Drupal experience actually phrase their questions, where the search gives useful results and where it gives misleading ones, and use that to improve matching and ranking. The training dataset gives a place to record what comes out of it, since a question someone asked and the assistant answered badly can go straight into the fixture.
 *   **A Tagged Release:** Once the remaining work is merged and anything surfaced by testing is cleaned up, a first release would make the module available for wider use.
 
