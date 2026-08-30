@@ -72,7 +72,7 @@ Over the course of the program the module went from nothing to a working assista
 
 ## 3. The Current State
 
-The module is functional and installable from the `1.0.x` branch, and every deliverable set out in the proposal is built. Thirty issues were opened over the course of the project, and every merge request runs the full Drupal GitLab CI pipeline covering coding standards, spell checking and the test suite.
+The module is functional and installable from the `1.0.x` branch, and every deliverable set out in the proposal is built and merged. Thirty issues were opened over the course of the project, and every merge request runs the full Drupal GitLab CI pipeline covering coding standards, spell checking and the test suite.
 
 Search quality was measured against the training dataset, twenty questions phrased the way a site builder would actually ask them, each paired with the page that answers it. The number moved as the work landed:
 
@@ -85,7 +85,7 @@ Search quality was measured against the training dataset, twenty questions phras
 
 Resolved here means the right page appears somewhere in the results. Ranking is the harder measure: of the twenty, twelve return the right page first and seventeen have it in the top five. Closing that gap is the clearest thing left to improve.
 
-There is no tagged release yet.
+The first release is available as [1.0.0-alpha1](https://www.drupal.org/project/config_navigator/releases/1.0.0-alpha1).
 
 ---
 
@@ -93,7 +93,7 @@ There is no tagged release yet.
 
 *   **Ranking:** All twenty fixture questions find the right page, but only twelve rank it first. Improving how results are ordered would make the most difference to how the assistant feels to use.
 *   **User Testing:** This is the part I would most want to do next. I would want to see how people with different levels of Drupal experience actually phrase their questions, where the search gives useful results and where it gives misleading ones, and use that to improve matching and ranking. The training dataset gives a place to record what comes out of it, since a question someone asked and the assistant answered badly can go straight into the fixture.
-*   **A Tagged Release:** Once the remaining work is merged and anything surfaced by testing is cleaned up, a first release would make the module available for wider use.
+*   **Beyond the Alpha:** The alpha has not had wider use yet. Anything that surfaces from people running it on real sites would shape what comes next, and a stable release would follow once that settles.
 
 ---
 
